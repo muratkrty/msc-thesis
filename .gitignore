@@ -22,3 +22,7 @@
 *.out
 *.pdf
 *.synctex.gz
+*.pdf
+*~
+
+
