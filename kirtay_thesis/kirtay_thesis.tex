@@ -1,0 +1,193 @@
+\documentclass[a4,12pt]{ozu-thesis}
+
+
+\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
+
+
+
+\title{Biologically Inspired Computational Modeling of Mirror Neuron and Emotion} %% If you want to specify a linebreak
+                               %% in the thesis title, you MUST use
+                               %% \protect\\ instead of \\, as \\ is a
+                               %% fragile command that \MakeUpperCase
+                               %% will break!
+\author{Murat K{\i}rtay}
+\department{Department of Computer Science}
+
+%% By default, this makes a M.Sc. thesis cover. If you are writing a Ph.D. dissertation uncomment
+%% the following.
+%% \dissertationtrue
+
+%% If you are writing a thesis proposal, uncomment the following.
+%% \thesisproposaltrue
+
+%% THe Committee Members are to be listed in the form
+%%
+%%  \member{Name}[Department][Institution]
+%%
+%% The second and third arguments are optional, but if you wish to
+%% supply the third, you must supply the second. Department defaults
+%% to the department defined above and Institution defaults to Ozyegin University
+
+
+% The First Member is your Advisor. 
+\firstmember{Professor M. O\u{g}uz Sunay, Advisor}
+
+% The next member is your second advisor - if exists. Otherwise, it will be your external examiner.
+\secondmember{Professor Ali \"{O}zer Ercan, Advisor}
+
+% Include the other members of your committee. 
+\thirdmember{Professor B\"{u}lent Sankur}[Department of Electrical and Electronics Engineering]
+[Bo\u{g}azi\c{c}i University]
+\fourthmember{Professor M. Reha Civanlar}
+\fifthmember{Professor Bar\i\c{s} Aktemur}[Department of Computer Science]
+
+
+
+\degree{Master of Science}
+\copyrightyear{2015}
+\submitdate{June 2015} % Must be the month and year of graduation,
+                         % not thesis approval! 
+                         
+%% The date the committee members sign the thesis form. Usually this is your defense date. Printed
+%% on the approval page.
+\approveddate{1 September 2012}
+
+% You need to specify the .bib files here. You may have multiple files. Write their names separated by commas.}
+
+\bibfiles{example-thesis}
+
+%% The following are the defaults
+%%    \titlepagetrue
+%%    \signaturepagetrue
+%%    \copyrighttrue
+%%    \figurespagetrue
+%%    \tablespagetrue
+%%    \contentspagetrue
+%%    \dedicationheadingfalse
+%%    \bibpagetrue
+%%    \thesisproposalfalse
+%%    \strictmarginstrue
+%%   \dissertationfalse
+%%    \listmajorfalse
+
+\begin{document}
+
+% We will use the standard IEEE transactions bibliography style in the thesis format. 
+\bibliographystyle{ieeetr}
+%%
+
+\begin{preliminary}
+
+%%
+\begin{dedication}
+\null\vfil
+{\large
+\begin{center}
+To Non-fraud academics and singularitarians
+\end{center}}
+\vfil\null
+\end{dedication}
+%%
+
+%%
+\begin{abstract}
+This is where the abstract of the thesis goes.
+\end{abstract}
+%%
+
+%%
+\begin{ozetce}
+This is where the Turkish version of the abstract goes.
+\end{ozetce}
+%%
+
+%%
+\begin{acknowledgements}
+This is where you can write your acknowledgements.
+\end{acknowledgements}
+%%
+
+
+% print table of contents, figures and tables here.
+\contents
+%
+% If you need a "List of Symbols or Abbreviations" look into
+% ozu-thesis-gloss.sty.
+
+\end{preliminary}
+%%
+
+\chapter{Introduction}
+
+Every dissertation should have an introduction.  You might not realize
+it, but the introduction should introduce the concepts, backgrouand,
+and goals of the dissertation.
+
+\section{Concepts}
+
+This is where we talk about the concepts behind the dissertation.
+
+\subsection{Primary Concept}
+
+This is the primary concept.
+
+\subsection{Secondary Concept}
+
+This is the secondary concept. Let us add a table right here.
+
+\begin{table}[h]
+\caption{A table, centered.}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+ \hline \hline
+$x$ & $y$ & $p(x,y)$ \\
+\hline \hline
+0 & 0 & 0.1 \\ \hline
+0 & 1 & 0.7 \\  \hline
+1 & 0 & 0.15 \\ \hline
+1 & 1 & 0.05 \\ \hline \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Even more secondary}
+
+Here is some more text \cite{knuth:tex}. Let us add an equation here.
+
+\begin{equation}
+h(x)=-\int_{-\infty}^{\infty}f(x)\log[f(x)]dx
+\end{equation}
+
+%%
+\chapter{Previous Work}
+
+Here is some text.
+
+\begin{figure}[h]
+\begin{center}
+%\includegraphics[scale=0.8]{alberteinsteintongue.eps}
+\end{center}
+\caption{A first figure.}
+\end{figure}
+
+%%
+\chapter{Conclusion}
+
+\nocite{*}
+%% We need this since this file doesn't ACTUALLY \cite anything...
+%%
+\appendix
+\chapter{Some Ancillary Stuff}
+
+Ancillary material should be put in appendices, which 
+appear just before the bibliography. 
+
+
+\begin{postliminary}
+\references
+\begin{vita}
+You write your vita here.
+\end{vita}
+\end{postliminary}
+
+\end{document}
