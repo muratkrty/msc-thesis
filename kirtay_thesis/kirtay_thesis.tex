@@ -7,7 +7,16 @@
 
 \usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
 \usepackage{xcolor}
-
+%\documentclass[conference]{IEEEtran}
+\usepackage{amssymb,amsmath,epsfig}
+%\usepackage{easyturk}
+%\usepackage[latin5]{inputenc}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{tabularx,caption}
+\usepackage{url}
+\usepackage{subfigure}
 
 \title{Biologically Inspired Computational Modeling of Mirror Neurons and Emotions} %% If you want to specify a linebreak
                                %% in the thesis title, you MUST use
@@ -132,32 +141,70 @@ This is where you can write your acknowledgements.
 
 \chapter{Introduction}
 
-Every dissertation should have an introduction.  You might not realize
-it, but the introduction should introduce the concepts, backgrouand,
-and goals of the dissertation.
 
-\section{Concepts}
-\subsection{Primary Concept}
-\subsection{Secondary Concept}
-\subsubsection{Even more secondary}
-\chapter{Previous Work}
-\chapter{Conclusion}
 
-\nocite{*}
+\section{Biologically Inspired Computational Modeling}
+\subsection{Contributions}
+\subsection{Thesis Organization}
+
+\chapter{Mirror Neurons}
+
+
+\chapter{Emotions}
+\section{Motivation}
+\input{../chapters/emotion/motivation.tex}
+
+\section{Literature Review}
+\input{../chapters/emotion/lit_review.tex}
+\section{Biological Background}
+\input{../chapters/emotion/bio_back.tex}
+\section{Method}
+\input{../chapters/emotion/method.tex}
+\subsection{Behaviour trough self regulation of the Hopfield Neural Network}
+\input{../chapters/emotion/hopfield.tex}
+\subsection{Behaviour trough energy regulation}
+\input{../chapters/emotion/energy_reg.tex}
+
+\section{Experimental Setup}
+\input{../chapters/emotion/exp_setup.tex}
+\subsection{Hardware setup and data flow}
+\input{../chapters/emotion/hw_setup.tex}
+\subsection{Darwin-OP and behavior execution process}
+\input{../chapters/emotion/exe_proc.tex}
+\section{Results and Discussions}
+\input{../chapters/emotion/results.tex}
+\subsection{Analysis of energy conservation}
+\input{../chapters/emotion/result_energy_con.tex}
+\subsection{Emotion based network dynamics}
+\input{../chapters/emotion/result_network_dyn.tex}
+\section{Conclusions}
+\input{../chapters/emotion/conclusions.tex}
+
+
+
+\begin{thebibliography}{99}
+\input{../chapters/references/references.tex}
+
+
+
+\end{thebibliography}
+
+
+%\chapter{Conclusion}
+
+%\nocite{*}
 %% We need this since this file doesn't ACTUALLY \cite anything...
 %%
 \appendix
-\chapter{Some Ancillary Stuff}
+%\chapter{Some Ancillary Stuff}
 
-Ancillary material should be put in appendices, which 
-appear just before the bibliography. 
 
 
 \begin{postliminary}
-\references
-\begin{vita}
-You write your vita here.
-\end{vita}
+%\references
+%\begin{vita}
+%You write your vita here.
+%\end{vita}
 \end{postliminary}
 
 \end{document}
