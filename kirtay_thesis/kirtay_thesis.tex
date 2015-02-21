@@ -1,3 +1,7 @@
+% Author: Murat Kirtay, Robotics Laboratory
+% Description: M.Sc. thesis
+
+
 \documentclass[a4,12pt]{ozu-thesis}
 
 
@@ -5,7 +9,7 @@
 \usepackage{xcolor}
 
 
-\title{Biologically Inspired Computational Modeling of Mirror Neuron and Emotion} %% If you want to specify a linebreak
+\title{Biologically Inspired Computational Modeling of Mirror Neurons and Emotions} %% If you want to specify a linebreak
                                %% in the thesis title, you MUST use
                                %% \protect\\ instead of \\, as \\ is a
                                %% fragile command that \MakeUpperCase
@@ -89,8 +93,8 @@
 \null\vfil
 {\large
 \begin{center}
-To Non-fraud academics and singularitarians
-\todo{put AGI researchers here}
+To Non-fraud Academics, Singularitarians and AGI Researchers
+
 
 \end{center}}
 \vfil\null
@@ -111,6 +115,7 @@ This is where the Turkish version of the abstract goes.
 
 %%
 \begin{acknowledgements}
+\input{../chapters/acknowledgement/acknowledgement.tex}
 This is where you can write your acknowledgements.
 \end{acknowledgements}
 %%
@@ -132,53 +137,10 @@ it, but the introduction should introduce the concepts, backgrouand,
 and goals of the dissertation.
 
 \section{Concepts}
-
-This is where we talk about the concepts behind the dissertation.
-
 \subsection{Primary Concept}
-
-This is the primary concept.
-
 \subsection{Secondary Concept}
-
-This is the secondary concept. Let us add a table right here.
-
-\begin{table}[h]
-\caption{A table, centered.}
-\begin{center}
-\begin{tabular}{|c|c|c|}
- \hline \hline
-$x$ & $y$ & $p(x,y)$ \\
-\hline \hline
-0 & 0 & 0.1 \\ \hline
-0 & 1 & 0.7 \\  \hline
-1 & 0 & 0.15 \\ \hline
-1 & 1 & 0.05 \\ \hline \hline
-\end{tabular}
-\end{center}
-\end{table}
-
 \subsubsection{Even more secondary}
-
-Here is some more text \cite{knuth:tex}. Let us add an equation here.
-
-\begin{equation}
-h(x)=-\int_{-\infty}^{\infty}f(x)\log[f(x)]dx
-\end{equation}
-
-%%
 \chapter{Previous Work}
-
-Here is some text.
-
-\begin{figure}[h]
-\begin{center}
-%\includegraphics[scale=0.8]{alberteinsteintongue.eps}
-\end{center}
-\caption{A first figure.}
-\end{figure}
-
-%%
 \chapter{Conclusion}
 
 \nocite{*}
