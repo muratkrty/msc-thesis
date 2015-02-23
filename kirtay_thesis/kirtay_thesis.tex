@@ -5,18 +5,39 @@
 \documentclass[a4,12pt]{ozu-thesis}
 
 
-\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
-\usepackage{xcolor}
-%\documentclass[conference]{IEEEtran}
-\usepackage{amssymb,amsmath,epsfig}
-%\usepackage{easyturk}
-%\usepackage[latin5]{inputenc}
+%\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
+%\usepackage{xcolor}
+%%\documentclass[conference]{IEEEtran}
+%\usepackage{amssymb,amsmath,epsfig}
+%%\usepackage{easyturk}
+%%\usepackage[latin5]{inputenc}
+%\usepackage{subfigure}
+%\usepackage{graphicx}
+%\usepackage{graphics}
+%\usepackage{tabularx,caption}
+%\usepackage{url}
+%\usepackage{subfigure}
+
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+%\usepackage{setspace}
 \usepackage{subfigure}
-\usepackage{graphicx}
-\usepackage{graphics}
-\usepackage{tabularx,caption}
-\usepackage{url}
-\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{soul}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx,float}
+\usepackage{epstopdf}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{courier}
+%\usepackage{subfig}
+\usepackage{epigraph}
+\usepackage{float}
+\usepackage[]{algorithm2e}
+\usepackage{multirow, tabularx}
+
 
 \title{Biologically Inspired Computational Modeling of Mirror Neurons and Emotions} %% If you want to specify a linebreak
                                %% in the thesis title, you MUST use
@@ -102,8 +123,9 @@
 \null\vfil
 {\large
 \begin{center}
-To Non-fraud Academics, Singularitarians and AGI Researchers
-
+To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researchers
+\\
+\todo{Never change this part}
 
 \end{center}}
 \vfil\null
@@ -124,6 +146,9 @@ This is where the Turkish version of the abstract goes.
 
 %%
 \begin{acknowledgements}
+
+
+
 \input{../chapters/acknowledgement/acknowledgement.tex}
 This is where you can write your acknowledgements.
 \end{acknowledgements}
@@ -141,14 +166,48 @@ This is where you can write your acknowledgements.
 
 \chapter{Introduction}
 
-
-
 \section{Biologically Inspired Computational Modeling}
-\subsection{Contributions}
-\subsection{Thesis Organization}
+\section{Contributions}
+\section{Thesis Organization}
 
 \chapter{Mirror Neurons}
+\section{Motivation}
 
+\section{Literature Review}
+
+\section{Experiments and Unit Set Features}
+\input{../chapters/mirror_neuron/exp_unit_set.tex}
+\subsection{Experiment conditions}
+\input{../chapters/mirror_neuron/exp_conds.tex}
+\subsection{Unit set specifications}
+\input{../chapters/mirror_neuron/unit_set.tex}
+\section{Evaluation Matrix}
+\input{../chapters/mirror_neuron/eval_mat.tex}
+\section{Methods}
+\subsection{Linear regression based decoding}
+\input{../chapters/mirror_neuron/linear_reg.tex}
+\subsubsection{Single unit linear regression}
+\input{../chapters/mirror_neuron/su_linear_reg.tex}
+\subsubsection{Multi unit linear regression}
+\input{../chapters/mirror_neuron/mu_linear_reg.tex}
+
+\subsection{Cross validation}
+\input{../chapters/mirror_neuron/cross_val.tex}
+\subsubsection{Single unit cross validation}
+\subsubsection{Multi unit cross validation}
+
+\subsection{Cross decoding among events}
+\subsubsection{Observation to execution}
+\subsubsection{Execution to Observation}
+
+\subsection{Time interval decoding}
+\input{../chapters/mirror_neuron/time_interval.tex}
+\subsection{Canonical correlation analysis}
+
+\section{Results and Discussions}
+
+
+\section{Conclusions}
 
 \chapter{Emotions}
 \section{Motivation}
@@ -156,9 +215,11 @@ This is where you can write your acknowledgements.
 
 \section{Literature Review}
 \input{../chapters/emotion/lit_review.tex}
+
 \section{Biological Background}
 \input{../chapters/emotion/bio_back.tex}
-\section{Method}
+
+\section{Methods}
 \input{../chapters/emotion/method.tex}
 \subsection{Behaviour trough self regulation of the Hopfield Neural Network}
 \input{../chapters/emotion/hopfield.tex}
@@ -171,24 +232,25 @@ This is where you can write your acknowledgements.
 \input{../chapters/emotion/hw_setup.tex}
 \subsection{Darwin-OP and behavior execution process}
 \input{../chapters/emotion/exe_proc.tex}
+
 \section{Results and Discussions}
 \input{../chapters/emotion/results.tex}
 \subsection{Analysis of energy conservation}
 \input{../chapters/emotion/result_energy_con.tex}
 \subsection{Emotion based network dynamics}
 \input{../chapters/emotion/result_network_dyn.tex}
+
 \section{Conclusions}
 \input{../chapters/emotion/conclusions.tex}
+
+\chapter{Conclusions}
 
 
 
 \begin{thebibliography}{99}
 \input{../chapters/references/references.tex}
 
-
-
 \end{thebibliography}
-
 
 %\chapter{Conclusion}
 
