@@ -1,9 +1,17 @@
 #msc-thesis
 This repository will contain my M.Sc. thesis which is temporarily titled as
 "Biologically Inspired Computational Modeling of Mirror Neurons and Emotions".
-Since the projects have different off-side colloborators, I have restiricted
-rights to make publicly experiment/model's data available without getting
-permission from co-authors and project PIs. 
+Since the projects have different off-side collaborators, I have restricted
+rights to make publicly experiment/model's data and unpublished results
+available without getting permission from co-authors and project PIs. After
+conference/journal submissions and defending my thesis, all related source code/files/data
+will readily be available under a specific F/OSS licence.
+
+
+>  At the same time I don't think this whole "openness" notion is new. In fact I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today, and the incredible advances that we have had. And I compare that to witchcraft and alchemy, where openness was something you didn't do. So openness is not something new, it is something that actually has worked for a long time.
+> - Linus Torvalds
+
+
 
 ### Publications
 
