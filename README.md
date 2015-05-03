@@ -11,7 +11,8 @@ will readily be available under a specific F/OSS licence.
 >  At the same time I don't think this whole "openness" notion is new. In fact I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples' ideas and making it into what science is today, and the incredible advances that we have had. And I compare that to witchcraft and alchemy, where openness was something you didn't do. So openness is not something new, it is something that actually has worked for a long time.
 > - Linus Torvalds
 
-<iframe src="https://www.beeminder.com/widget?slug=msc&username=muratkrty" height="185px" width="230px" frameborder="0px" ></iframe>
+
+[![](https://www.beeminder.com/muratkrty/goals/msc/graph)](http://www.beeminder.com/muratkrty/goals/msc/)
 
 
 
