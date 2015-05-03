@@ -18,7 +18,7 @@ will readily be available under a specific F/OSS licence.
 ### Publications
 
 1) Kirtay, M., Vasilis P., Vasilis R. & Oztop, E. (2015, March). Object level decoding
-and extracting mirror neuron candidates in F5. (Accepted abstract in the 13rd National Neuroscience Congress)  
+and extracting mirror neuron candidates in F5. (Published abstract in the 13rd National Neuroscience Congress [(USK'15)][usk_web)  
 
 2) Kirtay, M., Vasilis P., Vasilis R. & Oztop, E. (2015, Feb). Neural representation in F5:
 cross-decoding from observation to execution. (Accepted abstract in the 24th Annual Computational
@@ -30,4 +30,5 @@ DOI: [10.1109/HUMANOIDS.2013.7030013][humanoid_doi]
 
 [cns_web]: http://www.cnsorg.org/cns-2015
 [humanoid_doi]: http://dx.doi.org/10.1007/s10458-012-9213-x
+[usk_web]: http://www.usk2015.org/assets/anatomy-suppl-neuroscience-cong.pdf
 ---------------------------
