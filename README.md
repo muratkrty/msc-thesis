@@ -1,6 +1,6 @@
 #msc-thesis
 This repository will contain my M.Sc. thesis which is temporarily titled as
-"Biologically Inspired Computational Modeling of Mirror Neurons and Emotions".
+"Computational Approaches to Modeling Brain Mechanisms".
 Since the projects have different off-side collaborators, I have restricted
 rights to make publicly experiment/model's data and unpublished results
 available without getting permission from co-authors and project PIs. After
