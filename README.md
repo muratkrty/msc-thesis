@@ -13,7 +13,7 @@ will readily be available under a specific F/OSS licence.
 
 
 [![](https://www.beeminder.com/muratkrty/goals/msc/graph)](http://www.beeminder.com/muratkrty/goals/msc/)
-
+I was inspired by [Borgey][borgey_thesis]to beemind the thesis progress.
 
 
 ### Publications
@@ -32,4 +32,5 @@ DOI: [10.1109/HUMANOIDS.2013.7030013][humanoid_doi]
 [cns_web]: http://www.cnsorg.org/cns-2015
 [humanoid_doi]: http://dx.doi.org/10.1007/s10458-012-9213-x
 [usk_web]: http://www.usk2015.org/assets/anatomy-suppl-neuroscience-cong.pdf
+[borgey_thesis]: https://github.com/byorgey/thesis/blob/master/README.md
 ---------------------------
