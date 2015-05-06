@@ -13,7 +13,7 @@ will readily be available under a specific F/OSS licence.
 
 
 [![](https://www.beeminder.com/muratkrty/goals/msc/graph)](http://www.beeminder.com/muratkrty/goals/msc/)  
-I was inspired by [Borgey][borgey_thesis]to beemind the thesis progress.
+I was inspired by [Borgey][borgey_thesis] to beemind the thesis progress.
 
 
 ### Publications
