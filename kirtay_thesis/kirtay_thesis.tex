@@ -37,6 +37,8 @@
 \usepackage{float}
 \usepackage[]{algorithm2e}
 \usepackage{multirow, tabularx}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
 
 
 \title{Computational Approaches to Modeling Brain Mechanisms} %% If you want to specify a linebreak
@@ -188,27 +190,24 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 %---------MIRROR NEURONS----------
 \chapter{Mirror Neurons}
 
-
 \input{../chapters/mirror_neuron/mirror_neuron_intro.tex}
-
-
 
 \section{Experiments and Neural Data Set Features}
 
 \input{../chapters/mirror_neuron/exp_unit_set.tex}
 
-
 \subsection{Experiment conditions}
 \input{../chapters/mirror_neuron/exp_conds.tex}
 
-\subsection{Unit set specifications}
+\subsection{Neural data set specifications}
 \input{../chapters/mirror_neuron/unit_set.tex}
 
-\section{Evaluation Matrix}
+\section{Evaluation Metrics}
 \input{../chapters/mirror_neuron/eval_mat.tex}
 
 \section{Methods}
 \subsection{Linear regression based decoding}
+
 \input{../chapters/mirror_neuron/linear_reg.tex}
 
 \subsubsection{Single unit linear regression}
@@ -220,25 +219,31 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 \subsection{Cross validation}
 \input{../chapters/mirror_neuron/cross_val.tex}
 
-\subsubsection{Single unit cross validation}
+%\subsubsection{Single unit cross validation}
+%\subsubsection{Multi unit cross validation}
+%\subsection{Cross decoding among events}
+%\subsubsection{Observation to execution}
+%\subsubsection{Execution to Observation}
 
-\subsubsection{Multi unit cross validation}
-
-\subsection{Cross decoding among events}
-
-\subsubsection{Observation to execution}
-
-\subsubsection{Execution to Observation}
-
-\subsection{Time interval decoding}
-\input{../chapters/mirror_neuron/time_interval.tex}
-
-\subsection{Canonical correlation analysis}
+%\subsection{Time interval decoding}
+%\input{../chapters/mirror_neuron/time_interval.tex}
 
 \section{Results and Discussions}
+\input{../chapters/mirror_neuron/results.tex}
 
 
-\section{Conclusions}
+\subsection{Mirror neuron detection methods}
+\subsubsection{Execution vs. observation decoding}
+\input{../chapters/mirror_neuron/exe_obs_results.tex}
+
+\subsubsection{Event-wise cross decoding}
+\input{../chapters/mirror_neuron/cross_decoding.tex}
+
+%\input{../chapters/mirror_neuron/exe_obs_results1.tex}
+%\input{../chapters/mirror_neuron/exe_obs_results2.tex}
+
+%\subsection{Temporal mirror neuron}
+%\section{Conclusions}
 
 %%-----------EMOTION------------------
 \chapter{Emotions}
@@ -267,7 +272,6 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 
 \section{Results and Discussions}
 \input{../chapters/emotion/results.tex}
-
 \subsection{Analysis of energy conservation}
 \input{../chapters/emotion/result_energy_con.tex}
 \subsection{Emotion based network dynamics}
