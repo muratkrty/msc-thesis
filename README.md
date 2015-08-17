@@ -1,6 +1,6 @@
 #msc-thesis
 This repository will contain my M.Sc. thesis which is temporarily titled as
-"Computational Approaches to Modeling Brain Mechanisms".
+"Computational Approaches to Modeling Brain Mechanisms of Action Recognition and Emotions".
 Since the projects have different off-side collaborators, I have restricted
 rights to make publicly experiment/model's data and unpublished results
 available without getting permission from co-authors and project PIs. After
@@ -13,7 +13,7 @@ will readily be available under a specific F/OSS licence.
 
 
 [![](https://www.beeminder.com/muratkrty/goals/msc/graph)](http://www.beeminder.com/muratkrty/goals/msc/)  
-I was inspired by [Borgey][borgey_thesis] to beemind the thesis progress.
+I was inspired by [Borgey][borgey_thesis] to beemind the thesis progress. Do not be misguided, I finished on time!!  
 
 
 ### Publications
@@ -22,7 +22,7 @@ I was inspired by [Borgey][borgey_thesis] to beemind the thesis progress.
 and extracting mirror neuron candidates in F5. (Published abstract in the 13rd National Neuroscience Congress [(USK'15)][usk_web])  
 
 2) Kirtay, M., Vasilis P., Vasilis R. & Oztop, E. (2015, Feb). Neural representation in F5:
-cross-decoding from observation to execution. (Accepted abstract in the 24th Annual Computational
+cross-decoding from observation to execution. (Published abstract in the 24th Annual Computational
 Neuroscience Meeting [(CNS'15)][cns_web])  
 
 3) Kirtay, M. & Oztop, E. (2013, May). Emergent Emotion via Neural Computational Energy Conservation
