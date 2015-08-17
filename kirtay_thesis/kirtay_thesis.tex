@@ -39,9 +39,11 @@
 \usepackage{multirow, tabularx}
 \usepackage{colortbl}
 \usepackage[table]{xcolor}
+\usepackage{graphics}
 
-
-\title{Computational Approaches to Modeling Brain Mechanisms} %% If you want to specify a linebreak
+\title{Computational Approaches to Brain Mechanisms of Action Recognition and
+Emotion}
+%\title{Computational Approaches on Modeling Brain Mechanisms} %% If you want to specify a linebreak
                                %% in the thesis title, you MUST use
                                %% \protect\\ instead of \\, as \\ is a
                                %% fragile command that \MakeUpperCase
@@ -69,24 +71,26 @@
 \firstmember{Professor Erhan \"{O}ztop, Advisor}
 
 % The next member is your second advisor - if exists. Otherwise, it will be your external examiner.
-\secondmember{Professor Bar\i\c{s} Aktemur}
+\secondmember{Professor Tankut Bar\i\c{s} Aktemur}
+
 
 % Include the other members of your committee. 
-\thirdmember{Professor Sanem Sar{\i}el Talay}[Department of Computer Engineering]
+\thirdmember{Professor Sanem Sar{\i}el }[Department of Computer Engineering]
 [\.{I}stanbul Technical University]
-\fourthmember{Professor Hasan S\"{o}zer}
-\fifthmember{Professor Furkan K{\i}ra\c{c}}[Department of Computer Science]
+%\fourthmember{Professor Hasan S\"{o}zer}
+%\fifthmember{Professor Furkan K{\i}ra\c{c}}[Department of Computer Science]
+
 
 
 
 \degree{Master of Science}
 \copyrightyear{2015}
-\submitdate{June 2015} % Must be the month and year of graduation,
+\submitdate{August 2015} % Must be the month and year of graduation,
                          % not thesis approval! 
                          
 %% The date the committee members sign the thesis form. Usually this is your defense date. Printed
 %% on the approval page.
-\approveddate{..... ..... 2015}
+\approveddate{07-07-2015}
 
 % You need to specify the .bib files here. You may have multiple files. Write their names separated by commas.}
 
@@ -136,6 +140,7 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 
 %%
 \begin{abstract}
+
 \input{../chapters/abstract/abstract.tex}
 
 \end{abstract}
@@ -144,13 +149,12 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 %%
 \begin{ozetce}
 \input{../chapters/abstract/ozetce.tex}
-
 \end{ozetce}
 %%
 
 %%
 \begin{acknowledgements}
-
+%\todo{Ready to ....}
 \input{../chapters/acknowledgement/acknowledgement.tex}
 
 \end{acknowledgements}
@@ -171,11 +175,11 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 \input{../chapters/introduction/introduction.tex}
 
 \section{Motivation and Background}
-\input{../chapters/introduction/motivation.tex}\author{•}
-
+\input{../chapters/introduction/motivation.tex}
 
 \subsection{Existing Works on Mirror Neurons}
 \input{../chapters/introduction/mn_lit_review.tex}
+
 
 \subsection{Existing Works on Emotions}
 
@@ -189,13 +193,15 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 \input{../chapters/introduction/organization.tex}
 
 %---------MIRROR NEURONS----------
-\chapter{Mirror Neurons}
-
+\chapter{Action Recognition (Mirror Neurons)}
+ 
+ 
 \input{../chapters/mirror_neuron/mirror_neuron_intro.tex}
 \newpage
 \section{Experiments and Neural Data Set Features}
 
 \input{../chapters/mirror_neuron/exp_unit_set.tex}
+
 
 \subsection{Experiment conditions}
 \input{../chapters/mirror_neuron/exp_conds.tex}
@@ -204,6 +210,7 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 \input{../chapters/mirror_neuron/unit_set.tex}
 
 \section{Evaluation Metrics}
+
 \input{../chapters/mirror_neuron/eval_mat.tex}
 
 \section{Methods}
@@ -231,13 +238,12 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 
 \section{Results and Discussions}
 \input{../chapters/mirror_neuron/results.tex}
-
-\section{Mirror neuron detection methods}
-\subsection{Execution vs. observation decoding}
+\subsection{Mirror neuron detection methods}
+\subsubsection{Execution and observation decoding}
 \input{../chapters/mirror_neuron/exe_obs_results.tex}
-
-\subsection{Event-wise cross decoding}
+%\subsubsection{Cross-decoding}
 \input{../chapters/mirror_neuron/cross_decoding.tex}
+
 
 %\input{../chapters/mirror_neuron/exe_obs_results1.tex}
 %\input{../chapters/mirror_neuron/exe_obs_results2.tex}
@@ -247,6 +253,7 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 
 %%-----------EMOTION------------------
 \chapter{Emotions}
+
 %\section{Motivation}
 \input{../chapters/emotion/motivation.tex}
 
@@ -277,27 +284,27 @@ To Non-fraud Academicians, Singularitarians, Cosmists, Hackers and AGI Researche
 \subsection{Emotion based network dynamics}
 \input{../chapters/emotion/result_network_dyn.tex}
 
-
 \chapter{Conclusions}
 
 \input{../chapters/conclusion/conclusions.tex}
 
-\section{Mirror Neurons}
+\section{Action Recognition (Mirror Neurons)}
 \input{../chapters/conclusion/mn_conc_intro.tex}
 
-\subsection{Execution vs. observation decoding}
+\subsection{Execution and observation decoding}
 \input{../chapters/conclusion/conclusions_mn1.tex}
 
-\subsection{Event-wise cross decoding}
+\subsection{Cross decoding}
 \input{../chapters/conclusion/conclusions_mn2.tex}
 
 \section{Emotions}
 \input{../chapters/conclusion/conclusions_em.tex}
 
 
-
-
+\addcontentsline{toc}{chapter}{References}
+%\section{References}
 \begin{thebibliography}{99}
+
 \input{../chapters/references/references.tex}
 
 \end{thebibliography}
