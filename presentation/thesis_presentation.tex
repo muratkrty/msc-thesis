@@ -1,0 +1,799 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule i
+\usepackage{courier}
+\usepackage{subfig}
+\usepackage{float}
+
+
+\usepackage{multirow, tabularx}
+
+
+\usepackage{epstopdf}
+
+
+
+\definecolor{darkgreen}{rgb}{0, .6, 0}
+%-----------------------------------------------------------------------------
+%	TITLE PAGE
+%-----------------------------------------------------------------------------
+
+\title[ Mirror Neurons and Emotions]{Computational Approaches to Brain Mechanisms of Action Recognition and Emotion
+ } % The short title appears at the bottom of 
+
+\author{Murat K{\i}rtay } % Your name
+\institute[] % Your institution as it will appear 
+{ \\ % Your institution for the title page
+\medskip
+\textit{muratkrty@gmail.com} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+
+
+%---------------------------------------------
+%	PRESENTATION SLIDES
+%---------------------------------------------
+%\section{SCM and VCS ?}
+%%------------------------------------------------
+%
+%\begin{frame}
+%\frametitle{Why SCM/VCS tools?}
+%
+%\begin{center}
+%\framebox{ \includegraphics[height=2in]{figures/git.jpg}}
+%\footnote{http://git-scm.com/book/en/Getting-Started-Git-Basics} 
+%\end{center}
+%\end{frame}
+%------------------------------------------------
+
+
+%------------------------------------------------
+%------------------------------------------------
+\section{Motivation \#1} % Sections can be
+%------------------------------------------------
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Motivation \#1}
+
+\begin{block}{Why Brain Mechanisms?}
+\begin{itemize}
+\item Target source for solving general intelligence
+\item Achieved only once (human level intelligence) 
+\item Everything is computable \tiny(Demis Hassabis) 
+\end{itemize} 
+\end{block}
+
+\begin{block}{Why Computational Approaches?}
+\begin{itemize}
+\item To gain an understanding of brain mechanisms
+\item To predict the outcome of natural processes 
+
+\end{itemize} 
+\end{block}
+
+\begin{block}{Why Mirror Neurons and Emotions?}
+\begin{itemize}
+\item Polarized ideas
+\item Potential impacts 
+
+\end{itemize} 
+\end{block}
+
+\end{frame}
+
+%------------------------------------------------
+\section{ Motivation \#2 }
+%------------------------------------------------
+
+\begin{frame}
+
+\begin{center}
+\frametitle{Motivation \#2}
+\framebox{ \includegraphics[height=2.5in]{figures/marr2.png}}
+
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+
+%----EMOTIONS
+
+\section{ What is emotion?}
+%------------------------------------------------
+\begin{frame}
+\frametitle{What is emotion? }
+
+\begin{block}{What is emotion?}
+No universal definition.\\
+``Everyone knows what it is until they are asked to define it." 
+\end{block}
+
+\textbf{Major functions of the emotions;}
+\begin{itemize}
+
+\item Facilitate the recall of memories
+\item Trigger the motivated behaviors
+
+\item \textcolor{darkgreen}{Short-cut cognitive processes}
+\item Considered as source of reinforcement
+\item Communication: big data can be transmitted (scream)
+\item Constant change in endocrine system
+\item ...
+\end{itemize}
+
+\end{frame}
+%------------------------------------------------
+
+\section{Hypothesis \& Biological Background}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Hypothesis}
+\begin{block}{Hypothesis \& Biological Background}
+The computational short-cut mechanisms on cognitive processes to facilitate 
+energy economy give rise to what we call emotion.
+\end{block}
+Is this approach \textcolor{darkgreen}{biologically realistic}?
+\begin{columns}[l|c]
+  \column{2.9in}  % slides are 3in high by 5in wide
+
+\begin{itemize}\scriptsize
+\item Human brain accounts for \textbf{20\%} $O_{2}$
+\item \textbf{10\%} of a resting humans energy is used to \\keep brain's batteries charged
+\item \textbf{Blowfly:} transmission of a \textbf{bit} at a chemical\\ synapse cost $10^{4}$ ATP
+\begin{block}{}\scriptsize
+If metabolic energy is limiting, then neurons, neural codes and neural circuits will have evolved to reduce metabolic demands [1].
+
+\end{block}
+\end{itemize}
+  		
+  		
+\column{1.8in}
+\framebox{ \includegraphics[height=1.2in]{figures/vision.eps}}
+
+\end{columns}
+\footnote{\tiny [1] Laughlin et al. The metabolic cost of neural information. }
+ 
+\end{frame}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\section{Method \& Experiments}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Method \& Experiments}
+
+
+
+\begin{block}{}\scriptsize
+\begin{itemize}
+\item The PC or robot’s camera sees one pattern at a time 
+\item Hopfield Network tries to recall it as one of the learned patterns
+\item No interaction with operator
+\item No predefined emotions
+\end{itemize}
+
+\end{block}
+
+
+\begin{columns}[l|c]
+  \column{2.9in}  % slides are 3in high by 5in wide
+
+\begin{itemize}
+\item \textcolor{darkgreen}{\textbf{Offline experiments}}
+\begin{enumerate}\scriptsize
+\item Understand the behavior of Hopfield Network
+\item Facilitate threshold derivation
+\item Post-processing experiment data for evaluation
+\end{enumerate}
+
+\item \textcolor{darkgreen}{\textbf{Online robot experiments}}
+\begin{enumerate}\scriptsize
+\item Realization of online experiment in Darwin-OP
+\item Observing internal dynamics leads to
+non-deterministic behavior execution
+
+\end{enumerate}
+
+\end{itemize}
+  		
+  		
+\column{1.8in}
+\framebox{ \includegraphics[height=1.6in]{figures/darwinSit.eps}}
+
+\end{columns}
+
+ 
+\end{frame}
+
+%------------------------------------------------
+
+\section{Offline PC experiment}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Offline PC experiment}
+\begin{center}
+
+\begin{tabular}{|@{}l|@{}l|}
+  \hline
+  
+ \includegraphics[scale=0.3]{figures/combinedPatterns1.eps} (a)
+& \includegraphics[scale=0.3]{figures/combinedPatterns2.eps} (b)\\ \hline
+
+  \hline
+\end{tabular}
+
+\end{center}
+
+\begin{itemize}\scriptsize
+\item The convergence time and number of bits flipped versus contamination rate 
+was investigated. Each contamination level repeated 20 times.
+\item Fig. (a) shows the obtained convergence time versus contamination level 
+for each learned pattern. Fig. (b) show number of bits flips versus contamination 
+level for each pattern.
+\end{itemize}
+
+\begin{block}{}\scriptsize
+\centering \textcolor{darkgreen}{\textbf{Threshold derivation}}
+
+\end{block}
+
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Online robot experiment}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Online robot experiment}
+\begin{center}
+\framebox{ \includegraphics[height=2.3in]{figures/baseStation.eps}}
+\end{center}
+
+\end{frame}
+%------------------------------------------------
+
+
+\section{Experiment DEMO}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{DEMO}
+%\begin{center}
+%\framebox{ \includegraphics[height=2.9in]{figures/media.eps}}
+%\end{center}
+
+\begin{center}
+
+
+\huge \textcolor{darkgreen}{\textbf{DEMO}}\\
+\tiny \textbf{``Simulation is doomed to succeed." (R. Brooks) }
+\end{center}
+
+\end{frame}
+%------------------------------------------------
+\section{Results}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Results}
+
+
+
+\begin{block}{Results}\scriptsize
+\begin{itemize}
+\item Biologically plausible model proposed and implemented.
+\item A model emergence of higher level emotions trough neuro-computational
+energy regulation is explored.
+\item The model is realized on Darwin-OP (as opposed to being simulation study)
+
+\end{itemize}
+
+\end{block}
+
+
+
+
+\begin{columns}[l|c]
+  \column{2.9in}  % slides are 3in high by 5in wide
+
+\begin{itemize}
+\item \textcolor{darkgreen}{\textbf{Remaining works}}
+\begin{enumerate}\scriptsize
+\item Bio-inspired framework for emotion
+\item Modeling brain regions: PFC and Amygdala
+\item Objective evaluation of robot behavior
+\item Integration with complex cognitive architecture
+\item Foraging theory and swarm system
+\end{enumerate}
+
+
+
+\end{itemize}
+  		
+  		
+\column{1.8in}
+\begin{block}{}
+\textcolor{darkgreen}{The continuation of this work may lead to a novel interdisciplinary research 
+field for emotion, cognitive robotics, and computational neuroscience.}
+\end{block}
+
+\end{columns}
+
+ 
+\end{frame}
+%-----------------------
+
+\section{Brain Mechanism: Mirror Neuron }
+%------------------------------------------------
+\begin{frame}
+\frametitle{Mirror Neuron}
+
+\centering \huge \textbf{Mirror Neuron}
+
+\end{frame}
+%------------------------------------------------
+
+%------------------------------------------------
+%------------------------------------------------
+\section{ Mirror Neurons }
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{ Mirror Neurons}
+
+
+\centering \textcolor{darkgreen}{\textbf{Fires in both execution and observation conditions.}}
+\centering
+\framebox{ \includegraphics[height=1.8in, width=4in]{figures/mirror.eps}}
+
+%\textcolor{darkgreen}{\textbf{Tablolar{\i}n de\u{g}erlendirilmesi; }}
+\footnote{\tiny  VI. Mirror Neuron Systems in Monkey, Rizzolatti et al.}
+
+\begin{block}{Mirror Neurons}
+``mirror neurons will do for psychology what DNA did for biology: they will provide a unifying framework ..."
+\end{block}
+
+\end{frame}
+%------------------------------------------------
+\section{ Problem Definition }
+%------------------------------------------------
+\begin{frame}
+\frametitle{Problem Definition}
+
+\begin{center}
+\textcolor{darkgreen}{\textbf{Extracting mirror neuron candidates among
+available data set in a mechanistic way.}}
+\end{center}
+
+\textbf{Performed methods on data:}
+\begin{enumerate}
+\item Linear Regression
+\item Threshold based classification
+\item Binary Regression
+\item LOO Cross-Validation
+\item Correlation Analysis
+\item Canonical Correlation Analysis
+\item ...
+
+\end{enumerate}
+
+All proposed methods applied on both single unit and multi unit sets.
+
+
+
+
+\end{frame}
+%------------------------------------------------
+\section{ Experimental Setup and Conditions}
+%------------------------------------------------
+
+\begin{frame}
+
+\begin{center}
+\frametitle{Experimental Setup and Conditions}
+\centering \textbf{Objects}\\
+\framebox{ \includegraphics[height=1.2in]{figures/objects1.eps}}\\
+\centering \textbf{Conditions}\\
+\framebox{ \includegraphics[height=1.25in]{figures/experiments.eps}}
+\end{center}
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+%\section{ Data Structure }
+%%------------------------------------------------
+%
+%\begin{frame}
+%
+%\begin{center}
+%\frametitle{Data Structure}
+%\textcolor{darkgreen}{\textbf{Good Unit}}\\
+%\framebox{ \includegraphics[height=1.1in, width=3.6in]{figures/unit10.eps}}\\
+%\textbf{Not Good Unit}\\
+%\framebox{ \includegraphics[height=1in, width=3.6in]{figures/unit13.eps}}
+%
+%\end{center}
+%\end{frame}
+
+
+
+\section{ Linear Regression}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Regression and Cross-Validation }
+\begin{center}
+
+
+\begin{equation}\label{eq:linearReg}
+    X*W=Y
+\end{equation}
+
+
+\begin{equation}\label{eq:multiUnit}
+\begin{pmatrix}
+ $Unit10-Obj1-r1$ & $Unit19-Obj1-r1$ \\ 
+$Unit10-Obj2-r1$ & $Unit19-Obj2-r1$\\ 
+$Unit10-Obj3-r1$ & $Unit19-Obj3-r1$\\ 
+$Unit10-Obj4-r1$ & $Unit19-Obj4-r1$\\ 
+  \vdots &\vdots\\ 
+$Unit10-Obj1-r10$ & $Unit19-Obj1-r10$ \\ 
+$Unit10-Obj2-r10$ & $Unit19-Obj2-r10$\\ 
+$Unit10-Obj3-r10$ & $Unit19-Obj3-r10$\\ 
+$Unit10-Obj4-r10$ & $Unit19-Obj4-r10$\\ 
+
+\end{pmatrix}
+\times
+W
+=
+\begin{pmatrix}
+ 1\\ 
+2\\ 
+3\\ 
+4\\ 
+  \vdots\\ 
+
+ 1\\ 
+2\\ 
+3\\ 
+4\\ 
+\end{pmatrix}
+\end{equation}
+\begin{equation}\label{eq:predOut}
+         X*W=Y_{pred}
+\end{equation}
+\begin{equation}\label{eq:predErr}
+         Y-Y_{pred}=Y_{error}
+\end{equation}
+
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+\section{Evaluation Matrix}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Evaluation Matrix}
+\begin{center}
+Class Count $\Longrightarrow$ relative specificity\\
+In Class Count $\Longrightarrow$ absolute specificity
+\framebox{ \includegraphics[height=2.4in, width=4in]{figures/cpicp.eps}}
+
+
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+\section{Mirror Neuron Candidates: Observation}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Mirror Neuron Candidates: Observation}
+\textbf{Observation Condition}\\
+\begin{center}
+\framebox{ \includegraphics[height=2.5in, width=4in]{figures/nocueobs.eps}}
+\end{center}
+
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+\section{Mirror Neuron Candidates: Execution}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Mirror Neuron Candidates: Execution}
+
+\textbf{Execution Condition}\\
+\begin{center}
+\framebox{ \includegraphics[height=2.5in, width=4in]{figures/execution.eps}}
+\end{center}
+
+\end{frame}
+
+
+%------------------------------------------------
+\section{Raster Plots for Unit 54}
+%------------------------------------------------
+
+\begin{frame}
+
+\begin{center}
+\frametitle{Raster Plots for Unit 54}
+\framebox{ \includegraphics[height=3in, width=4in]{figures/unit54.png}}
+
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+
+%------------------------------------------------
+\section{ Observation vs. Execution Findings }
+%------------------------------------------------
+\begin{frame}
+\frametitle{Observation vs. Execution Findings }
+
+\textcolor{darkgreen}{\textbf{Evaluation of Observation vs. Execution Findings }}
+\begin{enumerate}
+\item 192 neurons are investigated and classified
+\item Robust results are obtained via performing cross-validation
+
+\item Prediction rates are significantly above chance level ($25\%$ vs. $40\%$).
+\item Single and multi object decoder neurons;
+\begin{itemize}
+
+\item 54 for all objects, \textbf{general decoder}.
+\item 93 for cylinder, ring and cube, \textbf{multi-object decoder}.
+\item 94 and 168 for cube and cylinder,\textbf{ object specific decoder}
+
+\end{itemize}
+
+\end{enumerate}
+
+\begin{block}{Contribution}
+\centering Unlike existing studies in the literature mirror neuron candidates are
+automatically extracted based on classification performance.\\
+\centering \textcolor{darkgreen}{\textbf{the Galadriel}} 
+\end{block}
+
+\end{frame}
+%------------------------------------------------
+
+\section{Neural Representation}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Neural Representation: Cross decoding}
+
+\centering \textcolor{darkgreen}{\textbf{Neural representation via cross-decoding}}
+
+\begin{equation}\label{eq:linearReg2}
+    X*\textcolor{red}{W}=Y
+\end{equation}
+\begin{center}
+\framebox{ \includegraphics[height=2.in, width=3.6in]{figures/transfer.eps}}
+
+
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Cross Decoding Tables}
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Cross Decoding Tables}
+ \textbf{$W_{obs}$ trained in Observation and tested in Execution}\\
+\begin{center}
+\framebox{ \includegraphics[height=1.1in, width=3in]{figures/obsw.png}}
+\end{center}
+\textbf{$W_{exe}$  trained in Execution and tested in Execution}\\
+\begin{center}
+\framebox{ \includegraphics[height=1.1in, width=3in]{figures/exew.png}}
+\end{center}
+
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+\section{Cross Decoding Findings }
+%------------------------------------------------
+\begin{frame}
+\frametitle{Cross Decoding Findings }
+
+\textcolor{darkgreen}{\textbf{Evaluation of Cross-decoding Findings }}
+\begin{enumerate}
+\item Weight transfer among experiment condition realized
+\item Similar neural representation observed for colored neurons
+
+\item Prediction rates are above chance level ($25\%$ vs. $70\%$-$33\%$ )
+\item Population level cross decoding analyzed for;
+\begin{itemize}
+\item finding perfect neuron pairs for decoding
+\item extracting helper neurons and best solo neurons
+\end{itemize}
+ 
+\end{enumerate}
+
+\begin{block}{Contribution}
+\centering The idea of a new term coined \textbf{Temporal Mirror Neuron} based 
+on decoding characteristics of a specific neuron.
+\end{block}
+
+\end{frame}
+%------------------------------------------------
+
+
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Acknowledgments}
+\begin{center}
+
+\begin{itemize}
+
+
+\item Erhan Oztop
+\item Eren Sezener\\
+-----------------------------
+\item Baris Aktemur
+\item Sanem Sariel\\
+-----------------------------
+
+
+%\item Demis Hassabis
+
+\item Vassilis Raos
+\item Vassilis Papadourakis \\
+-----------------------------
+
+\item ...Monkey/s
+\item 
+The mirror neuron study was supported by the Scientific and Technological Research Council of Turkey (TUB\.{I}TAK) with project number 113S391. 
+\end{itemize}
+
+
+\end{center}
+
+\end{frame}
+
+%------------------------------------------------
+\section{ Publication}
+%------------------------------------------------
+
+\begin{frame}
+
+\begin{center}
+\frametitle{Publications}
+\centering \textbf{Computational Neuroscience (CNS'15)}\\
+\framebox{ \includegraphics[height=0.7in, width=2.5in]{figures/cns.jpg}}\\
+\centering \textbf{National Neuroscience (USK'15)}\\
+\framebox{ \includegraphics[height=0.7in, width=2.5in]{figures/usk.png}}\\
+\centering \textbf{Humanoids'13}\\
+\framebox{ \includegraphics[height=0.7in, width=2.5in]{figures/humanoid.png}}
+
+\end{center}
+\end{frame}
+%------------------------------------------------
+
+
+%-----------------------------------------------
+%\begin{frame}
+%\frametitle{Quotation}
+%\begin{center}
+%
+%
+%\huge \textcolor{black}{``If you see fraud and don't shout fraud, you are a fraud"} 
+%\small Nassim N. Taleb
+%\end{center}
+%
+%\end{frame}
+
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Thanks}
+\begin{center}
+
+
+\huge \textcolor{darkgreen}{$</Thanks>$} 
+\end{center}
+
+\end{frame}
+
+
+
+\end{document} 
