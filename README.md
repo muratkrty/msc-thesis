@@ -1,4 +1,4 @@
-#msc-thesis
+# msc-thesis
 This repository will contain my M.Sc. thesis which is temporarily titled as
 "Computational Approaches to Modeling Brain Mechanisms of Action Recognition and Emotions".
 Since the projects have different off-side collaborators, I have restricted
